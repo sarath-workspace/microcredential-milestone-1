@@ -1,0 +1,116 @@
+2020-09-29 07:51:10,104 INFO com.cognizant.microcredential.eureka.sever.EurekaServerApplication [main] The following profiles are active: base,appconfig,mysql
+2020-09-29 07:51:16,567 WARN org.springframework.boot.actuate.endpoint.EndpointId [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-09-29 07:51:19,122 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=d67f381c-3580-369f-a78e-db9acae2f267
+2020-09-29 07:51:24,327 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8800 (http)
+2020-09-29 08:08:45,360 INFO com.cognizant.microcredential.eureka.sever.EurekaServerApplication [main] The following profiles are active: base,appconfig,mysql
+2020-09-29 08:08:51,267 WARN org.springframework.boot.actuate.endpoint.EndpointId [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-09-29 08:08:52,385 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=d67f381c-3580-369f-a78e-db9acae2f267
+2020-09-29 08:08:57,857 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8800 (http)
+2020-09-29 08:08:58,563 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 13047 ms
+2020-09-29 08:09:10,039 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 08:09:14,542 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 08:09:15,198 INFO org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: bdbe1250-9dac-458f-8af5-d82327338eac
+
+2020-09-29 08:09:16,501 INFO org.springframework.security.web.DefaultSecurityFilterChain [main] Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2a39fe6a, org.springframework.security.web.context.SecurityContextPersistenceFilter@62e70ea3, org.springframework.security.web.header.HeaderWriterFilter@5bf22f18, org.springframework.security.web.authentication.logout.LogoutFilter@6d366c9b, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@32f0fba8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@675d8c96, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@63648ee9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@410ae9a3, org.springframework.security.web.session.SessionManagementFilter@7a7471ce, org.springframework.security.web.access.ExceptionTranslationFilter@297ea53a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42b64ab8]
+2020-09-29 08:09:19,809 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 08:09:19,809 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses Jersey
+2020-09-29 08:09:19,997 WARN org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [main] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-09-29 08:09:20,436 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-09-29 08:09:21,266 WARN org.springframework.cloud.security.oauth2.SpringCloudSecurityAutoConfiguration [main] All Spring Cloud Security modules and starters are deprecated. They will be moved to individual projects in the next major release.
+2020-09-29 08:09:21,268 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-29 08:09:21,315 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application ONLINE-ORDER-SERVICE-EUREKA-SERVER with eureka with status UP
+2020-09-29 08:09:21,315 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Setting the eureka configuration..
+2020-09-29 08:09:21,315 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-09-29 08:09:21,315 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Eureka environment value eureka.environment is not set, defaulting to test
+2020-09-29 08:09:21,362 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] isAws returned false
+2020-09-29 08:09:21,362 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Initialized server context
+2020-09-29 08:09:21,377 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-11] Started Eureka Server
+2020-09-29 08:09:22,460 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8800 (http) with context path ''
+2020-09-29 08:09:22,460 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8800
+2020-09-29 08:09:24,546 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 08:09:24,592 INFO com.cognizant.microcredential.eureka.sever.EurekaServerApplication [main] Started EurekaServerApplication in 52.437 seconds (JVM running for 62.492)
+2020-09-29 08:12:09,302 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8800-exec-1] Initializing Servlet 'dispatcherServlet'
+2020-09-29 08:12:09,495 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8800-exec-1] Completed initialization in 192 ms
+2020-09-29 08:14:23,484 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application ONLINE-ORDER-SERVICE-EUREKA-SERVER with eureka with status DOWN
+2020-09-29 08:14:25,378 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-29 08:30:30,789 INFO com.cognizant.microcredential.eureka.sever.EurekaServerApplication [main] The following profiles are active: base,appconfig,mysql
+2020-09-29 08:30:38,692 WARN org.springframework.boot.actuate.endpoint.EndpointId [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-09-29 08:30:39,915 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=490ec68f-3c9d-3df1-a3db-ef70a7eb077b
+2020-09-29 08:30:43,098 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8800 (http)
+2020-09-29 08:30:43,569 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 12447 ms
+2020-09-29 08:30:53,259 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 08:30:56,065 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 08:30:59,514 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 08:30:59,514 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses Jersey
+2020-09-29 08:30:59,718 WARN org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [main] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-09-29 08:31:00,424 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-09-29 08:31:01,287 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-29 08:31:01,366 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application ONLINE-ORDER-SERVICE-EUREKA-SERVER with eureka with status UP
+2020-09-29 08:31:01,382 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Setting the eureka configuration..
+2020-09-29 08:31:01,398 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-09-29 08:31:01,398 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Eureka environment value eureka.environment is not set, defaulting to test
+2020-09-29 08:31:01,507 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8800 (http) with context path ''
+2020-09-29 08:31:01,523 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8800
+2020-09-29 08:31:01,523 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] isAws returned false
+2020-09-29 08:31:01,523 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Initialized server context
+2020-09-29 08:31:01,538 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-11] Started Eureka Server
+2020-09-29 08:31:04,094 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 08:31:04,126 INFO com.cognizant.microcredential.eureka.sever.EurekaServerApplication [main] Started EurekaServerApplication in 49.912 seconds (JVM running for 53.462)
+2020-09-29 08:35:58,492 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8800-exec-10] Initializing Servlet 'dispatcherServlet'
+2020-09-29 08:35:59,445 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8800-exec-10] Completed initialization in 953 ms
+2020-09-29 08:59:58,037 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application ONLINE-ORDER-SERVICE-EUREKA-SERVER with eureka with status DOWN
+2020-09-29 08:59:58,760 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-29 09:15:24,469 INFO com.cognizant.microcredential.eureka.sever.EurekaServerApplication [main] The following profiles are active: base,appconfig,mysql
+2020-09-29 09:15:29,678 WARN org.springframework.boot.actuate.endpoint.EndpointId [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-09-29 09:15:30,238 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=490ec68f-3c9d-3df1-a3db-ef70a7eb077b
+2020-09-29 09:15:31,979 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8800 (http)
+2020-09-29 09:15:32,448 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 7886 ms
+2020-09-29 09:15:40,257 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 09:15:43,018 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 09:15:46,923 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 09:15:46,923 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses Jersey
+2020-09-29 09:15:48,363 WARN org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [main] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-09-29 09:15:48,984 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-09-29 09:15:49,934 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-29 09:15:50,012 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application ONLINE-ORDER-SERVICE-EUREKA-SERVER with eureka with status UP
+2020-09-29 09:15:50,058 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Setting the eureka configuration..
+2020-09-29 09:15:50,058 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-09-29 09:15:50,058 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Eureka environment value eureka.environment is not set, defaulting to test
+2020-09-29 09:15:50,246 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] isAws returned false
+2020-09-29 09:15:50,246 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Initialized server context
+2020-09-29 09:15:50,246 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8800 (http) with context path ''
+2020-09-29 09:15:50,262 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-11] Started Eureka Server
+2020-09-29 09:15:50,246 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8800
+2020-09-29 09:15:52,534 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 09:15:52,581 INFO com.cognizant.microcredential.eureka.sever.EurekaServerApplication [main] Started EurekaServerApplication in 38.45 seconds (JVM running for 40.228)
+2020-09-29 09:16:23,037 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8800-exec-10] Initializing Servlet 'dispatcherServlet'
+2020-09-29 09:16:23,193 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8800-exec-10] Completed initialization in 156 ms
+2020-09-29 09:27:28,144 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [SpringContextShutdownHook] Unregistering application ONLINE-ORDER-SERVICE-EUREKA-SERVER with eureka with status DOWN
+2020-09-29 09:27:32,186 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [SpringContextShutdownHook] Shutting down ExecutorService 'applicationTaskExecutor'
+2020-09-29 09:49:36,323 INFO com.cognizant.microcredential.eureka.sever.EurekaServerApplication [main] The following profiles are active: base,appconfig,mysql
+2020-09-29 09:49:44,769 WARN org.springframework.boot.actuate.endpoint.EndpointId [main] Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2020-09-29 09:49:46,144 INFO org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=490ec68f-3c9d-3df1-a3db-ef70a7eb077b
+2020-09-29 09:49:51,413 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8800 (http)
+2020-09-29 09:49:51,878 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 15367 ms
+2020-09-29 09:49:59,962 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [main] Initializing ExecutorService 'applicationTaskExecutor'
+2020-09-29 09:50:03,778 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 09:50:07,683 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 09:50:07,683 INFO org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses Jersey
+2020-09-29 09:50:08,107 WARN org.springframework.cloud.loadbalancer.config.BlockingLoadBalancerClientAutoConfiguration$BlockingLoadBalancerClientRibbonWarnLogger [main] You already have RibbonLoadBalancerClient on your classpath. It will be used by default. As Spring Cloud Ribbon is in maintenance mode. We recommend switching to BlockingLoadBalancerClient instead. In order to use it, set the value of `spring.cloud.loadbalancer.ribbon.enabled` to `false` or remove spring-cloud-starter-netflix-ribbon from your project.
+2020-09-29 09:50:08,408 INFO org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2020-09-29 09:50:08,948 INFO org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver [main] Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-09-29 09:50:09,011 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application ONLINE-ORDER-SERVICE-EUREKA-SERVER with eureka with status UP
+2020-09-29 09:50:09,026 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Setting the eureka configuration..
+2020-09-29 09:50:09,026 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Eureka data center value eureka.datacenter is not set, defaulting to default
+2020-09-29 09:50:09,026 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Eureka environment value eureka.environment is not set, defaulting to test
+2020-09-29 09:50:09,140 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] isAws returned false
+2020-09-29 09:50:09,140 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerBootstrap [Thread-11] Initialized server context
+2020-09-29 09:50:09,156 INFO org.springframework.cloud.netflix.eureka.server.EurekaServerInitializerConfiguration [Thread-11] Started Eureka Server
+2020-09-29 09:50:09,172 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8800 (http) with context path ''
+2020-09-29 09:50:09,172 INFO org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8800
+2020-09-29 09:50:11,242 INFO org.springframework.cloud.commons.util.InetUtils [main] Cannot determine local hostname
+2020-09-29 09:50:11,336 INFO com.cognizant.microcredential.eureka.sever.EurekaServerApplication [main] Started EurekaServerApplication in 46.963 seconds (JVM running for 49.382)
+2020-09-29 09:50:52,362 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8800-exec-4] Initializing Servlet 'dispatcherServlet'
+2020-09-29 09:50:52,640 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8800-exec-4] Completed initialization in 172 ms
